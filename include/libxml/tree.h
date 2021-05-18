@@ -850,6 +850,8 @@ void		xmlSetDocCompressMode	(xmlDocPtr doc,
 int		xmlGetCompressMode	(void);
 void		xmlSetCompressMode	(int mode);
 
+unsigned long xmlChildElementCount(xmlNodePtr parent);
+
 #ifdef __cplusplus
 }
 #endif

@@ -50,3 +50,26 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# VS Files
+.vscode/
+
+# Assets
+Assets/Dialogue/
+Assets/Fonts/
+Assets/Sound/
+Assets/Textures/
+
+xboxAssets/
+
+# Executable
+ACE
+
+# Valgrind
+vgcore.*
+
+# Visual Studio
+Debug/
+Release/
+*.ncb
+*.suo
